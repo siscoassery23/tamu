@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://utamu.website/` + encodeURI(path as string)
+					`https://beautfulify.xyz/` + encodeURI(path as string)
 				}`,
 			},
 		};
